@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#F1DEDE"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="서울"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="경기"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="충청도"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="강원도"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="전라도"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/et_link_back2"
+            android:fontFamily="@font/tvnbold"
+            android:text="경상도"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
