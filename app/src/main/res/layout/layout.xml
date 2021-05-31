@@ -10,69 +10,98 @@
         android:id="@+id/imageButton7"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="172dp"
         android:background="@color/browser_actions_bg_grey"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/main_page___setting"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="358dp" />
+        android:contentDescription="StringValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/main_page___setting" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:background="@color/browser_actions_divider_color"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/main_page___register"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="148dp" />
+        android:contentDescription="StringValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_page___register" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="401dp"
         android:layout_height="94dp"
-        app:srcCompat="@drawable/main_page___top_bar"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="31dp" />
+        android:contentDescription="StringValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/main_page___top_bar" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="148dp"
         android:background="@color/browser_actions_divider_color"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/main_page___message"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="148dp" />
+        android:contentDescription="StringValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_page___message" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="172dp"
         android:background="@color/browser_actions_divider_color"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/main_page___push_alarm"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="358dp" />
+        android:contentDescription="StringValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/main_page___push_alarm" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="64dp"
         android:fontFamily="@font/tvnbold"
         android:text="0명"
+        android:contentDescription="StringValue"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:contentDescription="StringValue"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="64dp"
         android:fontFamily="@font/tvnbold"
         android:text="코로나 확진자 수: "
         android:textColor="#C36D6D"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
