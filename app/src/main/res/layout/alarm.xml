@@ -3,54 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="403dp"
-        android:layout_height="329dp"
-        app:srcCompat="@drawable/push_alarm___main"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="6dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="89dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="미세먼지"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox9"
-        android:layout_width="78dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="152dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="경기도"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox10"
-        android:layout_width="84dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="304dp"
-        android:layout_marginLeft="304dp"
-        android:layout_marginTop="224dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="특별시 및 광역시"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="match_parent"
+    android:background="#FDF2F2">
 
     <CheckBox
         android:id="@+id/checkBox11"
@@ -58,35 +12,9 @@
         android:layout_height="26dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginTop="192dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="강원도"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox12"
-        android:layout_width="78dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="304dp"
-        android:layout_marginLeft="304dp"
         android:layout_marginTop="152dp"
         android:fontFamily="@font/tvnbold"
-        android:text="경상북도"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox16"
-        android:layout_width="78dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="216dp"
-        android:layout_marginLeft="216dp"
-        android:layout_marginTop="232dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="충청남도"
+        android:text="강원도"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -97,35 +25,9 @@
         android:layout_height="26dp"
         android:layout_marginStart="304dp"
         android:layout_marginLeft="304dp"
-        android:layout_marginTop="192dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="충청북도"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox15"
-        android:layout_width="78dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="216dp"
-        android:layout_marginLeft="216dp"
         android:layout_marginTop="152dp"
         android:fontFamily="@font/tvnbold"
-        android:text="전라북도"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox14"
-        android:layout_width="81dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="216dp"
-        android:layout_marginLeft="216dp"
-        android:layout_marginTop="192dp"
-        android:fontFamily="@font/tvnbold"
-        android:text="전라남도"
+        android:text="충청북도"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -136,9 +38,87 @@
         android:layout_height="27dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="192dp"
         android:fontFamily="@font/tvnbold"
         android:text="경상남도"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="전라남도"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="184dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="특별시 및 광역시"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="충청남도"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="전라북도"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="경기도"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="경상북도"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -149,7 +129,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="@font/tvnbold"
         android:text="주의보"
         android:textSize="20sp"
@@ -162,7 +142,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="200dp"
         android:layout_marginLeft="200dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="@font/tvnbold"
         android:text="경보"
         android:textSize="20sp"
@@ -175,7 +155,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="216dp"
         android:layout_marginLeft="216dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/tvnbold"
         android:text="재난"
         android:textColor="#000000"
@@ -184,15 +164,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="58dp"
+        android:id="@+id/checkBox"
+        android:layout_width="89dp"
         android:layout_height="30dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginLeft="276dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/tvnbold"
-        android:text="기후"
-        android:textColor="#000000"
+        android:text="미세먼지"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -203,36 +182,76 @@
         android:layout_height="30dp"
         android:layout_marginStart="332dp"
         android:layout_marginLeft="332dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/tvnbold"
         android:text="코로나"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="230dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="112dp"
-        app:contentInsetStart="0dp"
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="기후"
+        android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="407dp"
+        android:layout_height="341dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/push_alarm___main" />
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="418dp"
+        android:paddingLeft="@+id/activity_horizontal_margin"
+        android:paddingTop="@+id/activity_vertical_margin"
+        android:paddingRight="@+id/activity_horizontal_margin"
+        android:paddingBottom="@+id/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context="com.recipes4dev.examples.listviewcustomfilterexample.MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Filter Text"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/editTextFilter"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textView1" />
 
-            <androidx.appcompat.widget.SearchView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:iconifiedByDefault="false"
-                app:searchIcon="@drawable/ic_search"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="406dp"
+            android:layout_height="340dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:textFilterEnabled="true" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
