@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="버튼1" />
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application android:theme="@style/Theme.MyApplication"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name" android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true">
+
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
